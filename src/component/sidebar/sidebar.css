@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../../assets//fonts//Poppins.ttf);
+}
+.sidebarSetting {
+ 
+  width: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.home {
+
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  align-items: center;
+  width: 150px;
+  margin-right: -100px;
+  transition: 1s ease;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.home:hover {
+  margin-right: 0;
+}
+.homeimg {
+  width: 40px;
+  height: 45px;
+  margin-right: 8px;
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--bs-body);
+  transition: 0.5s;
+}
+.text {
+  color: black;
+  transition: all 1s ease;
+}
+.text:hover {
+  color: blue;
+}
+.homeheading h2 {
+  font-family: Poppins;
+  font-size: 16px;
+  color: rgb(62, 62, 210);
+  font-weight: 700;
+}

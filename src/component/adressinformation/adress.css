@@ -1,0 +1,25 @@
+@font-face {
+    font-family: poppins;
+    src: url(../../assets/fonts/Poppins.ttf);
+}
+.street{
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+
+}
+.location h3{
+    font-size:15px;
+    color: white;
+}
+.parausa h2{
+
+    font-family: poppins;
+   
+    background-clip: text;
+    color: white;
+
+}
+.parausa h2{
+    font-size: 14px;
+}
