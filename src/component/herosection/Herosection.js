@@ -6,6 +6,12 @@ import Adress from "../adressinformation/Adress";
 import { IoLocation } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { BsTelephone } from "react-icons/bs";
+
+import ContantButton from "../contantbutton/ContantButton";
+import { FiFacebook } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa6";
+import { FiTwitter } from "react-icons/fi";
+import { CiLinkedin } from "react-icons/ci";
 import { info } from "autoprefixer";
 export default function Herosection() {
   const informations = [
@@ -21,7 +27,20 @@ export default function Herosection() {
       location: <BsTelephone />,
       infome: "+92 3049469130",
     },
-  
+  ];
+  const iconset = [
+    {
+      icon: <FiFacebook />,
+    },
+    {
+      icon: <FiTwitter />,
+    },
+    {
+      icon: <FaInstagram />,
+    },
+    {
+      icon:<CiLinkedin />,
+    },
   ];
   return (
     <>
@@ -53,10 +72,15 @@ export default function Herosection() {
                 />
               ))}
             </div>
+            <div className="iconsetting1  flex gap-2">
+              {iconset.map((item, index) => (
+                <ContantButton id='kkkk' key={index} icon={item.icon} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
-      <hr />
+      <hr style={{height:'1px',color:'white', border:'2px solid white'}}/>
     </>
   );
 }

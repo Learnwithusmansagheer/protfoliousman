@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+.row{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items:start;
+    gap: 5px;
+   
+
+}
+
+.col{
+    width: 300px;
+   
+    display: flex;
+    align-items: center;
+
+}
+.col h1{
+    width: auto;
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: baseline;
+   
+}
+.col p{
+    flex-wrap: nowrap;
+    color: aliceblue;
+}
+@media screen and (max-width:700px) {
+    .row{
+        flex-wrap: wrap;
+
+    }
+    .col{
+        width: 100%;
+    }
+    }
+    
