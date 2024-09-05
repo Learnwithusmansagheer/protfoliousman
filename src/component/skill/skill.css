@@ -1,0 +1,16 @@
+.skillSetting{
+    display: flex;
+}
+.skillPart1{
+    background-color: #16243d;
+    width: 28%;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    animation-delay: 0.5s;  
+}

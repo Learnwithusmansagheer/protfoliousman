@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.maincard1{
+  
+    padding: 20px ;
+    height:auto;
+    width: 95%;
+    background: rgb(29,255,29);
+    /* background: linear-gradient(0deg, rgba(29,255,29,0.1293767507002801) 0%, rgba(54,62,161,1) 0%, rgba(44,39,147,1) 67%, rgba(255,255,255,1) 70%, rgba(224,222,228,1) 96%); */
+    border: 1px solid black;
+    background-color: transparent;
+    visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.03);
+  border: 1px solid white;
+    border-radius: 12px;
+    transition: all ease 1s;
+}
+.maincard1:hover{
+    transform: scale(1.05);
+    background-color: transparent;
+}
+.card_heading p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+}
+.card_title{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.date_set{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.date_icon {
+    color: rgb(200, 42, 42);
+    font-size: 20px;
+}
+.date_set h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: brown;
+}
+.sub_heading h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    background: #121FCF;
+    background:  linear-gradient(to bottom right, #f9f9f9 0%, #1C9E28 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.paragraph_education p{
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(255, 255, 255);
+}

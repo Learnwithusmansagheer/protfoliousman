@@ -57,7 +57,7 @@
   
   .iconsetting2 {
     position: absolute;
-    top: -50%; 
+    top: -100%; 
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -67,11 +67,12 @@
     height: 100%;
     opacity: 0;
     transition: opacity 0.3s ease, top 0.5s ease;
+    background: rgba(0, 0, 0, .04);
   }
   
   .boyimg:hover .iconsetting2 {
     top: 50%; 
-    background-color: transparent;
+  
     opacity: 1; 
     transform: translateY(-50%); 
   }
@@ -103,6 +104,7 @@
     gap: 5px;
     flex-wrap: wrap;
   }
+
   @media screen and (max-width:1024px) {
     .aboutMain{
         flex-direction: column;
@@ -118,9 +120,22 @@
         align-items: center;
         gap: 40px;
     }
+    .about_information{
+        align-items: center;
+    }
+    .boyimg{
+      width:100%;
+        height: auto;
+        border-radius: 5px;
+        margin: 0;
+    }
   }
   @media screen and (max-width:700px) {
-    .secondContainer{padding-left: 10px;}
+    .aboutinformationset{
+        gap: 10px;
+    }
+    .secondContainer{padding-left: 10px;
+    gap: 10px;}
     .about_para p{
         padding: 10px;
         align-items: center;
@@ -136,7 +151,14 @@
     .about_information{
         align-items: center;
     }
+    .boyimg {
+        width:100%;
+        height: auto;
+        margin:0 25px;
+        border: 2px solid white;
+        
+    }
   }
   @media screen and (max-width:700px) {
-    
+
   }
