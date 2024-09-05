@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sevillana&display=swap');
+.servicescard{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    padding: 40px 25px;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+.iconservices p{
+    font-size: 60px;
+    color: white;
+
+}
+.servicesHeading h1{
+    font-size: 29px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    color: aliceblue;
+}
+.servicesParagraph{
+    width: 200px;
+}
+.servicesParagraph p{
+    font-family: "Quicksand", sans-serif;  
+    color: white;
+    font-size: 15px;
+}
+@media screen and (max-width:800px) {
+    .servicescard{
+      
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+    }
+}

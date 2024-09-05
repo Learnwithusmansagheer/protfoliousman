@@ -4,6 +4,8 @@ import Herosection from '../../component/herosection/Herosection'
 import Aboutme from '../../component/aboutme/Aboutme'
 import Education from '../../component/education/Education'
 import Experience from '../../component/experience/Experience'
+import Skill from '../../component/skill/Skill'
+import Services from '../../component/services/Services'
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
     <Aboutme/>
     <Education/>
     <Experience/>
+    <Skill/>
+    <Services/>
    </div>
 
    </>

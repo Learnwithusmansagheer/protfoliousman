@@ -1,7 +1,7 @@
-.skillSetting{
+.services_setting{
     display: flex;
 }
-.skillPart1{
+.servicesPart1{
     background-color: #16243d;
     width: 28%;
     height: auto;
@@ -12,9 +12,9 @@
     gap: 30px;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out forwards;
-    animation-delay: 0.5s;  
+    animation-delay: 0.5s;
 }
-.skillPart2{
+.servicesPart2{
     padding: 25px 25px ;
   
     background: rgb(255, 255, 255);
@@ -28,22 +28,36 @@
     width: 72%;
     height:auto;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     gap: 25px;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out forwards;
     animation-delay: 1s;
 }
 @media screen and (max-width:1024px) {
-    .skillSetting{
+    .services_setting{
         flex-direction: column;
+
     }
-    .skillPart1{
+    .servicesPart1{
         width: 100%;
     }
-    .skillPart2{
+    .servicesPart2{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .services_setting{
+        flex-direction: column;
+    
+        height: auto;
+
+    }
+    .servicesPart1{
+        width: 100%;
+    }
+    .servicesPart2{
         width: 100%;
     }
     
