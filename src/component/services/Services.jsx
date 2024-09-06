@@ -2,6 +2,7 @@ import React from "react";
 import Paragraph from "../paragraphinformation/Paragraph";
 import { SiAdobecreativecloud } from "react-icons/si";
 import { MdDeveloperMode } from "react-icons/md";
+import { FaDisplay } from "react-icons/fa6";
 
 import "./services.css";
 import ServicesCard from "../servicescard/ServicesCard";
@@ -18,7 +19,7 @@ export default function Services() {
       paragraph: " My work focuses on combining aesthetics with functionality to meet clients' unique needs.",
     },
     {
-      iconservices: <SiAdobecreativecloud />,
+      iconservices:<FaDisplay />,
       heading: "Web Development",
       paragraph: " My work focuses on combining aesthetics with functionality to meet clients' unique needs.",
     },

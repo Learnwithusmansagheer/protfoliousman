@@ -8,6 +8,10 @@
     border: 1px solid white;
     border-radius: 12px;
     flex-wrap: wrap;
+    transition: all ease .5s;
+}
+.servicescard:hover{
+    transform: scaleY(1.03);
 }
 .iconservices p{
     font-size: 60px;
