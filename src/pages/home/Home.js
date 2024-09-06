@@ -7,6 +7,7 @@ import Experience from '../../component/experience/Experience'
 import Skill from '../../component/skill/Skill'
 import Services from '../../component/services/Services'
 import Portfolio from '../../component/portfolio/Portfolio'
+import Blog from '../../component/blog/Blog'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
     <Skill/>
     <Services/>
     <Portfolio/>
+    <Blog/>
    </div>
 
    </>
