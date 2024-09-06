@@ -6,6 +6,7 @@ import { FaDisplay } from "react-icons/fa6";
 
 import "./services.css";
 import ServicesCard from "../servicescard/ServicesCard";
+import HrTag from "../hrtag/HrTag";
 export default function Services() {
   const information = [
     {
@@ -36,6 +37,7 @@ export default function Services() {
           ))}
         </div>
       </div>
+      <HrTag/>
     </>
   );
 }

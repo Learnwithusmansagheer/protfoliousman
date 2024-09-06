@@ -3,7 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'flowbite/dist/flowbite.min.css';
+import 'flowbite/dist/flowbite.min.js';
 import './index.css';  
+<script src="https://unpkg.com/flowbite@latest/dist/flowbite.min.js"></script>
+
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

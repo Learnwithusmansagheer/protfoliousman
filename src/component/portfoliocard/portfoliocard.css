@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=SUSE:wght@100..800&display=swap');
+.portcard {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: relative; 
+    flex-wrap: wrap;
+    transition: all ease 0.5s;
+}
+
+.portcard::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px; 
+    height: 2px;
+    background-color: white;
+    transition: width 0.5s ease; 
+}
+
+.portcard:hover::after {
+    width: 100%; 
+}
+
+
+.portcardtitle{
+    display: flex;
+    flex-direction: column;
+
+}
+.portcardheading h1{
+    color: white;
+    font-size: 25px;
+    font-family: "SUSE", sans-serif;
+    font-weight: 600;
+
+}
+.portcardSubheading h1{
+    background: #121FCF;
+background: repeating-radial-gradient(circle farthest-corner at center center, #121FCF 0%, #CF1512 100%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+    /* color: white; */
+    font-size: 35px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    width: 500px;
+
+}
+.imagesport {
+    width:auto;
+    height: auto;
+    opacity: 0;
+    transition: all ease .5s;
+}
+.imagesport img{
+    width: 250px;
+    height: 130px;
+}
+.portcard:hover .imagesport{
+    opacity: 1;
+    transform: rotate(-10deg);
+}
+@media screen and (max-width:1024px) {
+    .portcardSubheading h1{
+        width: auto;
+    }
+    .portcard:hover .imagesport{
+        transform:none;
+    }
+}

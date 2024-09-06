@@ -1,0 +1,49 @@
+.portfoliosetting{
+    display: flex;
+}
+.portfoliopart1{
+    background-color: #16243d;
+    width: 28%;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    animation-delay: 0.5s;  
+}
+.portfoliopart2{
+    padding: 25px 25px ;
+  
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(16, 23, 17, 1) 3%,
+      rgba(18, 9, 121, 1) 53%,
+      rgba(16, 23, 17, 1) 100%
+    );
+    width: 72%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    animation-delay: 1s;
+}
+@media screen and (max-width:1024px) {
+    .portfoliosetting{
+        flex-direction: column;
+    }
+    .portfoliopart1{
+        width: 100%;
+    }
+    .portfoliopart2{
+        width: 100%;
+    }
+}
